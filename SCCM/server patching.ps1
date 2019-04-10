@@ -1,7 +1,7 @@
 ﻿# SCCM Montly Patching Script
 
 
-function Get-PatchTue {
+function Get-PatchTuesday {
 <#  
   .SYNOPSIS   
     Get the Patch Tuesday of a month 
