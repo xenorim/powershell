@@ -29,3 +29,4 @@ $firstdayofmonth = [datetime] ([string]$month + "/1/" + [string]$year)
 $sccmmonth = Get-Date -uformat %m
 $sccmyear = (Get-Date).Year
 $servergroup = Get-CMSoftwareUpdateGroup -name "Enterprise - All Server Patches Monthly - $sccmyear-$sccmmonth *"  #Grabs patch group for the current month
+$workstationgroup = Get-CMSoftwareUpdateGroup -name "Enterprise - All Workstation Patches Monthly - $sccmyear-$sccmmonth *"
